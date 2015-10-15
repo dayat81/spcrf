@@ -1,3 +1,7 @@
+simple policy & charging rule function
+
+Makefile:
+######### start
 CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
 
 OBJS =		main.o avputil.o diameter.o avp.o entry.o logic.o
@@ -13,3 +17,4 @@ all:	$(TARGET)
 
 clean:
 	rm -f $(OBJS) $(TARGET)
+########  end
